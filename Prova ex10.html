@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Prova ex10</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+	</script>
+</head>
+<body style="background-color:rgb(190,190,190);">
+	<div class="jumbotron text-center">
+		<h1> Estilos musicais</h1>
+		<h4> Gosto de praticamente qualquer musica</h4>
+		<a href="#sec1"><h5>Quem sou eu?</h5></a>
+	</div>
+	<div class="row">
+		<div class="col-sm-4">
+			<h1 style="text-align:center"><strong>Musicas</strong></h1>
+		</div>
+		<div class="col-sm-4">
+			<h1 style="text-align:center"><strong>Bandas</strong></h1>
+		</div>
+		<div class="col-sm-4">
+			<h1 style="text-align:center"><strong>Imagens</strong></h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4">
+			<h1 style="text-align:center">Rock</h1>
+		</div>
+		<div class="col-sm-4">
+			<h1 style="text-align:center">AC/DC</h1>
+		</div>
+		<div class="col-sm-4">
+			<h1 style="text-align:center"><img width="60%" height="70%" src="acdc.jpg"></h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4">
+			<h1 style="text-align:center">J-POP</h1>
+		</div>
+		<div class="col-sm-4">
+			<h1 style="text-align:center">Myth & roid</h1>
+		</div>
+		<div class="col-sm-4">
+			<h1 style="text-align:center"><img width="60%" height="70%" src="mar.webp"></h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4">
+			<h1 style="text-align:center">Rap</h1>
+		</div>
+		<div class="col-sm-4">
+			<h1 style="text-align:center">Eminem</h1>
+		</div>
+		<div class="col-sm-4">
+			<h1 style="text-align:center"><img width="60%" height="70%" src="eminem.jpg"></h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4">
+			<h1 style="text-align:center">Jazz</h1>
+		</div>
+		<div class="col-sm-4">
+			<h1 style="text-align:center">Frank Sinatra
+</h1>
+		</div>
+		<div class="col-sm-4">
+			<h1 style="text-align:center"><img width="60%" height="70%" src="frank.jpg"></h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4">
+			<h1 style="text-align:center">Metal</h1>
+		</div>
+		<div class="col-sm-4">
+			<h1 style="text-align:center">Slipknot</h1>
+		</div>
+		<div class="col-sm-4">
+			<h1 style="text-align:center"><img width="60%" height="70%" src="slipknot.webp"></h1>
+		</div>
+	</div>
+	<h1 style="text-align:center;"><strong>Qual seu estilo músical?</strong></h1>
+	<button style="margin-left:45%;" onclick="myFunction()">Responda</button>
+	<p id="demo"></p>
+	<script>
+		function myFunction(){
+			var musica;
+			var nome=prompt(" Digite seu nome:");
+			var estilo=prompt("Digite seu estilo musical:");
+  			musica="Bem vindo: " + nome + " que gosta de " + estilo ;
+  			document.getElementById("demo").innerHTML=musica;
+		}
+	</script>
+	<h1 style="text-align:center;"> <strong>Quem sou eu?</strong></h1>
+	<section id="sec1">
+		<div>
+			<div class="row">
+				<div class="col-sm-4">
+					<img style="border:solid white 1px;margin-left:20%;" width="60%" height="70%" src="Fotocurriculo.png"> <!-- Mesma foto do curriculo -->
+				</div>
+				<div class="col-sm-6">
+					<h2> Meu nome é victor leandro alves Curti, tenho 19 anos, estou cursando ADS na unicesumar e eu gosto de vários tipos de músicas!!!</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
